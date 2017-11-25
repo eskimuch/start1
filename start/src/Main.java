@@ -9,14 +9,13 @@ public class Main
         name2 = "Czekolada";
         producent1 = "Mlekowita";
         producent2 = "Wedel";
-        price1 = 2.5f;
+        price1 = 2.50f;
         price2 = 2.19f;
 
-        System.out.println("Produkt1:");
-        System.out.print(name1 + " " + producent1 + " " + price1 + '\n');
-        System.out.println("Produkt2:");
-        System.out.print(name2 + " " + producent2 + " " + price2 + '\n');
-
+        //System.out.println("Produkt1:");
+        //System.out.print(name1 + " " + producent1 + " " + price1 + '\n');
+        System.out.printf("Produkt1 \n%s %s %.2f \n",name1,producent1,price1);
+        System.out.printf("Produkt2 \n%s %s %.2f \n",name2,producent2,price2);
 
         float number1 = 0.5f;
         String name = "John";
